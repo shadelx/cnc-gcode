@@ -8,8 +8,15 @@ class Prog(QtWidgets.QMainWindow):
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
 
+        self.ui.printBtn.clicked.connect(self.printFunction)
+        self.ui.clearBtn.clicked.connect(self.clearFunction)
+
     def printFunction(self):
-        pass
+        self.ui.textEdit.setPlainText('hello, world\n')
+        print('hello, world')
+
+    def clearFunction(self):
+        self.ui.textEdit.setPlainText('')
 
 if __name__=='__main__':
     app =  QtWidgets.QApplication(sys.argv)
