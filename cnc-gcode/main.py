@@ -8,6 +8,9 @@ class Prog(QtWidgets.QMainWindow):
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
 
+    def printFunction(self):
+        pass
+
 if __name__=='__main__':
     app =  QtWidgets.QApplication(sys.argv)
     win = Prog()
