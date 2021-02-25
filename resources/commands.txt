@@ -1,0 +1,14 @@
+1. dowload ghostscript and install 
+	install sudo apt-get install libxext-dev
+	./configure
+	make
+	sudo make install
+
+2. download pstoedit and install
+	echo $LD_LIBRARY_PATH
+	LD_LIBRARY_PATH=/usr/local/lib
+	export LD_LIBRARY_PATH
+	./configure
+	make
+	sudo make install
+	sudo ldconfig
