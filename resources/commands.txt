@@ -12,3 +12,10 @@
 	make
 	sudo make install
 	sudo ldconfig
+
+
+useful commands
+
+pip freeze > requirements.txt
+
+pyuic5 -x design_cnc.ui -o gui_cnc.py
