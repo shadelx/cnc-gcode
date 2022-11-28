@@ -6,9 +6,11 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-pyqt5 = "*"
-pyserial = "*"
+pyqt5 = "==5.15.3"
+pyserial = "==3.5"
 colorama = "*"
+PyQt5-Qt = "==5.15.2"
+PyQt5-sip = "==12.8.1"
 
 [requires]
 python_version = "3.8"

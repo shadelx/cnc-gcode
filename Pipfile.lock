@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "b2fde71b6fb4463e521dc3f9f0d791707295aaf4c2afaafd6ca8f71572446c3d"
+            "sha256": "f86158094b4fdbaa75727f01cc505e93cd5ed2082712ef4cdca15f802a4530e0"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -42,6 +42,7 @@
                 "sha256:962511bfdc847f0746e1de92499cbb1ae127ca5ec356f009a6d9f924fe1230d5",
                 "sha256:dec2e88fbfabc0d3365bb4007c88c75fc99fc75cfb418399aeb5acd1d5f7d484"
             ],
+            "index": "pypi",
             "version": "==5.15.2"
         },
         "pyqt5-sip": {
@@ -68,7 +69,7 @@
                 "sha256:ed897c58acf4a3cdca61469daa31fe6e44c33c6c06a37c3f21fab31780b3b86a",
                 "sha256:f168f0a7f32b81bfeffdf003c36f25d81c97dee5eb67072a5183e761fe250f13"
             ],
-            "markers": "python_version >= '3.5'",
+            "index": "pypi",
             "version": "==12.8.1"
         },
         "pyserial": {
